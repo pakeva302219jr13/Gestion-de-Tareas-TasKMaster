@@ -1,0 +1,22 @@
+# Node modules (bibliotecas y dependencias instaladas)
+node_modules/
+
+# Archivos de entorno (variables sensibles como contraseñas, claves API)
+.env
+
+# Archivos de log
+logs/
+*.log
+
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de la IDE (Visual Studio Code, IntelliJ, etc.)
+.vscode/
+.idea/
+
+# Archivos de construcción (si aplican, solo para proyectos que generan builds)
+dist/
+build/

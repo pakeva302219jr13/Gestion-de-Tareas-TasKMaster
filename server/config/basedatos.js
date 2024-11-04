@@ -15,7 +15,7 @@ connection.connect((err) => {
   if (err) {
     console.error('Error de conexión a la base de datos:', err.message);
   } else {
-    console.log(`Conectado a la base de datos MySQL: ${process.env.DATABASE_NAME}`);  // Uso de template literals
+    console.log(`Conectado a la base de datos MySQL: ${process.env.DATABASE_NAME}`);  
   }
 });
 

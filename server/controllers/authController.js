@@ -54,10 +54,10 @@ export const register = (req, res) => {
           });
         });
     })
-    .catch(() => {
+    .catch((error) => {
       return res.status(500).json({
         success: false,
-        message: 'Error al verificar el email',
+        message: error.message,
       });
     });
 };
